@@ -1,0 +1,30 @@
+This is a Python script that can be used to deploy new versions of Stratus
+applications. It works with Python 3, Python 2 versions are not supported.
+Change the Python paths if needed.
+
+Use at your on risk and make sure you are uploading to the correct 
+environment. Error handling should be improved yet. There is
+conf.py file where you can set your environment specific paths and other
+parameters. There are different ways how you can use this:
+1)To deploy new code on only one node in the specified colocation (you 
+will be provided with the selected IP and name of the host in the beginning
+of chef run)
+2)To deploy new code on all servers in the specified colocation
+3)To deploy new code on all environments, on all servers for that application
+
+In the third case the script does not ask you for verification to proceed 
+with chef update, chef run etc. In the first two cases, it does. 
+
+USAGE 
+python codeupdate.py <app name> <new version> <env_file file>
+
+EXAMPLES
+python codeupdate.py app.name 1.17~20130401110213 all
+python codeupdate.py app.name 1.17~20130401110213 prodenv1.rb
+
+FILES
+chef_update.py - manages environment upload and update of chef nodes
+codeupdate.py - main file which calls out the rest of the modules
+conf.py - your configuration parameters
+git_handler.py - runs git pull, commits changes and pushes them out to master
+versionupdate.py - modifies Chef environment files and replaces version
