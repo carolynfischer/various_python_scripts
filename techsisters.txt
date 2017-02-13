@@ -1,0 +1,38 @@
+ Tore oleks, kui saaksid vabas vormis mõne reaga panna kirja ka enda iseloomustuse (nt kus töötad hetkel ja mille muu põnevaga veel tegeled?) ja pildi, mille oled nõus samuti oma jutu juurde lisama. :) 
+
+I work at Skype as a system engineer, but I classify myself more as a system administrator who just does programming and automation half of the time. I take care of our testing environments and some parts in secure.skype.com as well as applications that Skype client uses. 
+
+* Tell us something about yourself / What would you say about yourself with 5 sentences? How would you describe yourself with 5 sentences? 
+i=0;
+while [ "$i" -lt "5" ]; do
+	echo "I am passionate about technology."
+	let i=$i+1;
+done
+
+Just kidding. 
+But honestly, technology does define me in many ways since it fills up majority of my days. If I am not working, I try to learn new interesting things, whether it be science, new programming languages or innovative solutions how to make system administration easier and more efficient. Oh, and I really like electric bicycles. 
+
+How did you discover and first become engaged in technology?
+
+It began around 6th or 7th grade. A few of my friends owned a PC and I kept bugging them with my presence until I got mine. It was a tall tower, a 286 with 4 mb ram and 40 mb hdd (unfortunately I have no record of the cpu), but even though it was heavily outdated back then, I couldn't be happier. I used MS/DOS and Windows 3.11 for four years on it, knew it inside and out and sometimes kept marvelling on a Win 95 demo diskette that had a start menu (you can imagine how special it felt compared to 3.11's layout). At 8th grade we started having IT lessons at school. Unfortunately the teacher was past retireing age and not very effective, so I ended up doing my task in 5 minutes and helping the rest of the class until the end. This was the point where I understood that it will be my future. I enjoyed it and being an average kid, it was the only thing that I was much better at than everyone else. And who doesn't like being good at something...
+
+What is the most exciting part of your work?
+
+I never know what the day is going to bring, whether it be issues with live systems, troubleshooting setup with the developers or just having a chance to create something new that makes my work easier. It gives me an addictive thrill and I have started wondering if I am now an adrenaline junkie because of that.. 
+
+What was the last interesting technology event you attended/participated?
+
+Without any doubt, Velocity conference in California and the following DevOpsDays. I was not expecting it to be so inspirational and exciting, but talking to the smartest people in the field and even getting some invaluable tips from venture capitalists gave me a boost to achieve and learn more. 
+
+What is the most memorable situation you have ever been in concerning technology?
+
+Last summer we had to launch Skype and Facebook integration that allowed people to make video calls to other Facebook and Skype clients. One evening I was about to leave work at 8 pm and one manager came across me with a small favor of installing a whole platform for it due to the next morning. I was up whole night, but by 6 am I had accomplished my task. Later it came out that it wasn't needed yet in weeks and when it was finally launched, the load wasn't as high as they had expected and 1/3 of the capacity would have been more than enough. Desipte that it felt good to be part of something that big and important.
+
+What are the top 5 apps you can’t live without?
+
+Skype, Google maps, Mail, Calendar, Facebook, Comics (Dilbert/XKCD). 
+P.S. Though probably I'd be ok without the last two. ;)
+
+What would be your message to newby female techmakers to give them a heads up or encouragement?
+
+Having patience to stick with what you love doing will lead you to success. Have persistence (did you know most startups fail the first few times?), believe in yourself, never stop learning, don't give up and everything is possible!
